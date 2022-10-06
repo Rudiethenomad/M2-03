@@ -102,4 +102,32 @@ console.log (carsForRent)
 */
 
 
+// 6
+/*
+const orders = [5, 15, 45, 89]
+console.log (orders [1]);
+let sum = 0;
+for (let i = 0; i <= orders.length -1; i++){
+    sum += orders [i];
+}
+if (sum > 50){
+    console.log ("total price:". sum);
+}
+else {
+    console.log ("total price:", sum + 10);
+}
+// 7
+*/
+/*
+const totalShoppingCart = 20;
 
+const shippingCost = 10;
+const total = totalShoppingCart >= 50 ? totalShoppingCart : totalShoppingCart+ shippingCost;
+
+
+console.log (total)
+
+const blackFridayTotal = .08 * total;
+console.log (blackFridayTotal)
+const finaltotal = total - blackFridayTotal;
+console.log (finaltotal)*/

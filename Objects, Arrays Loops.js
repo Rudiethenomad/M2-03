@@ -97,13 +97,13 @@ console.log (total)
  Modify the previous answer inserting this information and, applying the same rules for the shipping cost, calculate the totalCost.
 */
 
-/* const totalShoppingCart = 20;
-const blackFriaydiscount = totalShoppingCart/100 *20;
-const shippingCost = 10;
-const total = totalShoppingCart + blackFriaydiscount >= 50 ? totalShoppingCart : totalShoppingCart+ shippingCost;
+ const blackFridayTotal = .08 * total;
+console.log (blackFridayTotal)
+const finaltotal = total - blackFridayTotal;
+console.log (finaltotal)
 
 
-console.log (total) */
+
 
 /* EXERCISE 8
  Create a variable and assign to it an object representing a car, with properties like brand, model and licensePlate.
@@ -166,7 +166,7 @@ console.log (carsForRent)
 */
 
 
-const carsForRent = [
+const carsForRent1 = [
 
    newCar,
     newCar2,
@@ -175,9 +175,9 @@ const carsForRent = [
     newCar5,
     newCar6,
 ]
-console.log (carsForRent)
+console.log (carsForRent1)
 const removedCar = carsForRent.pop();
-console.log (carsForRent)
+console.log (carsForRent1)
 
  
 
