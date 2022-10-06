@@ -131,3 +131,74 @@ const blackFridayTotal = .08 * total;
 console.log (blackFridayTotal)
 const finaltotal = total - blackFridayTotal;
 console.log (finaltotal)*/
+
+
+
+const newCar = {
+    brand: "ford",
+    model: "f150",
+    licensePlate: "89159",
+    }
+
+ console.log (newCar);
+
+const newCar2 = Object.assign({},newCar);
+newCar2.licensePlate = "56796";
+console.log(newCar2);
+
+const newCar3 = Object.assign({},newCar);
+newCar2.licensePlate = "12345";
+console.log(newCar3);
+
+const newCar4 = Object.assign({},newCar);
+newCar2.licensePlate = "67891";
+console.log(newCar4);
+
+const newCar5 = Object.assign({},newCar);
+newCar2.licensePlate = "159634";
+console.log(newCar5);
+
+const newCar6 = Object.assign({},newCar);
+newCar2.licensePlate = "753159";
+console.log(newCar6);
+
+
+
+
+/* EXERCISE 9
+ Create a variable called carsForRent and assign to it an array containing all the cars from the previous exercise.
+*/
+
+
+const carsForRent = [
+
+   newCar,
+    newCar2,
+    newCar3,
+    newCar4,
+    newCar5,
+    newCar6,
+]
+console.log (carsForRent)
+
+
+
+
+/* EXERCISE 10
+ Remove the first and the last car from the carsForRent array.
+*/
+
+
+const carsForRent1 = [
+
+   newCar,
+    newCar2,
+    newCar3,
+    newCar4,
+    newCar5,
+    newCar6,
+]
+console.log (carsForRent1)
+const removedCar = carsForRent1.pop();
+console.log (carsForRent1)
+

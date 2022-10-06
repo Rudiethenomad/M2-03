@@ -34,10 +34,10 @@ const info =
 console.log (info)
 
 
-
-/* EXERCISE 3
+/*
+ EXERCISE 3
  Add to the previously created object a property with a boolean value to rappresent wheter you have or not a driving license.
-
+*/
 
 
 info.driversLicense = true;
@@ -176,7 +176,7 @@ const carsForRent1 = [
     newCar6,
 ]
 console.log (carsForRent1)
-const removedCar = carsForRent.pop();
+const removedCar = carsForRent1.pop();
 console.log (carsForRent1)
 
  
